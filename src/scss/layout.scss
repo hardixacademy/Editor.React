@@ -1,0 +1,19 @@
+.header {
+    background-color: var(--bg-light);
+    box-shadow: var(--box-shadow);
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 35px;
+        }
+
+        span {
+            margin-left: 10px;
+            color: var(--primary-color)
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.panel {
+    padding: 20px;
+
+    background-color: var(--bg-light);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+}
+
+.form__row {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+
+    label {
+        margin-bottom: 5px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 10px 15px;
+        outline: none;
+        border: 1px solid var(--bg-main);
+        border-radius: var(--border-radius);
+        transition: 0.3s linear;
+
+        &:focus {
+            border: 1px solid var(--primary-color)
+        }
+    }
+
+    textarea {
+        height: 100px;
+    }
+}
